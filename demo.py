@@ -11,4 +11,5 @@ while 1:
     for event in pygame.event.get():
          if event.type==pygame.QUIT:
              sys.exit()
+    scr.blit(square, (200,210)) # blit writes a surface on another surface. The two numbers say where: x and y.
     pygame.display.flip()
