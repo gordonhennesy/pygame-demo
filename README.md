@@ -46,3 +46,6 @@ ESC (escape) key in the next example. Also colors
                 if event.key==pygame.K_ESCAPE:
                     sys.exit()
         pygame.display.flip()
+
+Let's add some sound http://www.bfxr.net/ or http://thirdcog.eu/apps/cfxr,
+both of which inherit from http://www.drpetter.se/project_sfxr.html
